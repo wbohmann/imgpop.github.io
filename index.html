@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html>
+  <head>
+<link type="text/css" rel="stylesheet" href="css/style.css">
+  </head>
+  <body>
+    <section>
+      <img src="images/grablarge.jpg" alt="" id="slider">
+    
+      <ul class="navigation">
+        <li onclick="imgPop('images/grablarge.jpg')"><img src="images/grabthumb.jpg"></li>
+        <li onclick="imgPop('images/powderlarge.jpg')"><img src="images/powderthumb.jpg"></li>
+        <li onclick="imgPop('images/skilarge.jpg')"><img src="images/skithumb.jpg"></li>
+        <li onclick="imgPop('images/snowfieldlarge.jpg')"><img src="images/snowfieldthumb.jpg"></li>
+
+      </ul>
+
+    </section>
+
+    <script type="text/javascript">
+      function imgPop(anything){
+        document.getElementById("slider").src = anything;
+
+      }
+    </script>
+  </body>
+</html>
